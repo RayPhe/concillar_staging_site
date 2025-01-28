@@ -11,5 +11,7 @@ h1, h2{
     bottom: 0;
     margin: auto;
     height: 50%;
-    padding-left: 40%;
+    padding-left: 30%;
+    font-family: fantasy;
+    font-size: xx-large;
 }
