@@ -6,12 +6,34 @@ h1, h2{
     text-align: center; 
 }
 .text{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 50%;
-    padding-left: 30%;
+    width: 1000px;
+    padding: 100px, 0;
+    margin: 0 auto;
     font-family: fantasy;
     font-size: xx-large;
+
+
+}
+
+@media (max-width: 600px) {
+    .text{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    .text{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .text{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .text{
+        width: 100%;
+    }
 }
