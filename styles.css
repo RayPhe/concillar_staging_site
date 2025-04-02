@@ -9,6 +9,10 @@ body{
     margin-right: auto;
     width: 50%;
   }
+  .socials {
+    text-align: center;
+  }
+
 h1, h2{
     text-align: center; 
 }
@@ -22,7 +26,7 @@ h1, h2{
 
 
 @media (max-width: 600px) {
-    .text{
+    .text, .image, .socials{
         width: 100%;
     }
 }
